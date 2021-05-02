@@ -17,6 +17,7 @@ body {
 #logo {
     font-family: 'mali';
     font-size: large;
+    font-style: uppercase;
     color: #fcbdaa
 }
 
