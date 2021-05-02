@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Mali:wght@300&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    color: rgb(24, 23, 23);
+}
+
+/* headings and logo */
+
+#logo {
+    font-family: 'mali';
+    font-size: large;
+    color: #fcbdaa
+}
+
+#slogan {
+    font-family: 'graduate';
+    font-size: small;
+    color: white;
+}
+
+header {
+    background-color: #33a496;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: center;
+    list-style-type: none;
+    margin: 30px center;
+}
