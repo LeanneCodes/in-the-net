@@ -14,15 +14,24 @@ body {
 
 /* headings and logo */
 
+header a {
+    position: center;
+    text-align: center;
+    width: auto;
+    padding: 5px 30px;
+}
+
 #logo {
     font-family: 'mali';
-    font-size: large;
+    font-size: 80px;
+    position: center;
     color: #fcbdaa
 }
 
 #slogan {
     font-family: 'graduate';
-    font-size: small;
+    font-size: 40px;
+    position: center;
     color: white;
 }
 
@@ -38,4 +47,5 @@ header {
     float: center;
     list-style-type: none;
     margin: 30px center;
+    position: inline;
 }
