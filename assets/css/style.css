@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Mali:wght@300&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 * {
     margin: 0;
@@ -21,14 +22,14 @@ header a {
     margin: 0px;
     padding: 5px 30px;
     text-decoration: none;
-    color: white;
+    color: #66CDAA;
 }
 
 #logo {
-    font-family: 'montserrat', sans-serif;
-    font-size: 60px;
+    font-family: 'poiret one', cursive;
+    font-size: 80px;
     position: center;
-    color: #fcbdaa
+    color: #66CDAA
 }
 
 #slogan {
@@ -36,11 +37,11 @@ header a {
     font-size: 29px;
     position: center;
     padding: 15px 15px 10px 15px;
-    color: white;
+    color: 	#2F4F4F;
 }
 
 header {
-    background-color: #33a496;
+    background-color: white;
 }
 
 #menu li {
@@ -63,11 +64,57 @@ nav li a:hover {
 }
 
 nav li a:visited {
-    color: #fbcdaa;
+    color: #66CDAA;
 }
 
 /* hero background image */
 
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 500px;
+    width: auto;
+    margin: 0px;
+    background: url('../images/goal-shooter-full-width.png') no-repeat center center;
+}
+
+#hero-second {
+    height: 500px;
+    width: auto;
+    margin: 0px;
+    background: url('../images/havering-map-resized.png') no-repeat center center;
+}
+
+/* 5 great reasons */
+
+.rtb {
+    text-align: center;
+}
+
+section h2 {
+    padding: 30px;
+}
+
+.five-reasons {
+    color: black;
+    background-color: rgba(102,205,170, 0.5);
+    width: 20%;
+    height: 350px;
+    float: left;
+    padding: 10px 0 0 10px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+}
+
+#courts {
+    padding-top: 30px;
+}
 
 /* how to play */
 
