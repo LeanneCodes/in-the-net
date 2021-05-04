@@ -12,40 +12,56 @@ body {
     color: rgb(24, 23, 23);
 }
 
-/* headings and logo */
+/* navigation and logo */
 
 header a {
     position: center;
     text-align: center;
     width: auto;
+    margin: 0px;
     padding: 5px 30px;
+    text-decoration: none;
+    color: white;
 }
 
 #logo {
-    font-family: 'mali';
-    font-size: 80px;
+    font-family: 'montserrat', sans-serif;
+    font-size: 60px;
     position: center;
     color: #fcbdaa
 }
 
 #slogan {
-    font-family: 'graduate';
-    font-size: 40px;
+    font-family: 'graduate', sans-serif;
+    font-size: 29px;
     position: center;
+    padding: 15px 15px 10px 15px;
     color: white;
 }
 
 header {
-    background-color: #33a496;
-}
-
-#menu, #logo {
-    line-height: 75px;
+    background-color: #a05f7e;
 }
 
 #menu li {
-    float: center;
     list-style-type: none;
-    margin: 30px center;
-    position: inline;
+    margin-left: 20px;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+nav {
+    padding-bottom: 20px;
+    width: fit-content;
+    margin:0 auto;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+nav li a:visited {
+    color: #fbcdaa;
 }
