@@ -91,15 +91,37 @@ nav li a:visited {
 
 #ratings div {
     color: darkslategray;
-    width: 30%;
-    height: 300px;
+    width: 33%;
+    height: 190px;
     text-align: center;
     float: left;
-    padding: 11px;
+    padding: 2px 2px 10px 2px;
 }
 
 #ratings p {
     font-size: 14px;
+}
+
+/* usp */
+
+#usp div {
+    color: darkslategray;
+    width: 17%;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+    float: left;
+    padding: 2px 25px 2px 25px;
+}
+
+#usp h3 {
+    padding-bottom: 100px;
+}
+
+.fas {
+    font-size: 100px;
+    color: #66CDAA;
+    padding-bottom: 20px;
 }
 
 /* how to play */
@@ -124,8 +146,8 @@ iframe {
     text-align: center;
     letter-spacing: 4px;
 
-    width: 400px;
-    height: 115px;
+    width: 500px;
+    height: 85px;
 
     padding-top: 20px;
     padding-left: 5px;
@@ -133,8 +155,8 @@ iframe {
     background-color: rgba(102,205,170,0.7);
     color: white;
 
-    top: 180px;
-    left: 450px;
+    top: 200px;
+    left: 400px;
 
     position: absolute;
 }
@@ -156,3 +178,16 @@ iframe {
     width: auto;
     margin: 0px;
     background: url('../images/netball-post-v3.png') no-repeat center center;
+}
+
+/* footer */
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #66CDAA;
+    color: white;
+    text-align: center;
+ }
