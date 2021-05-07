@@ -92,25 +92,16 @@ nav li a:visited {
 
 /* reviews */
 
-.rtb {
-    text-align: center;
-}
-
-section h2 {
-    padding: 30px;
-}
-
-#reviews div {
-    color: black;
-    background-color: rgba(102,205,170, 0.5);
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
     width: 33%;
-    height: 350px;
+    height: 300px;
     float: left;
-    padding: 10px 0 0 10px;
+    padding: 80px 0 0 10px;
     text-align: center;
     border: 2px solid #ffffff;
     box-sizing: border-box;
-}
 
 /* how to play */
 
