@@ -92,6 +92,17 @@ nav li a:visited {
 
 /* reviews */
 
+#ratings div {
+    color: darkslategray;
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 10px 0 0 10px;
+}
+
+#ratings > p {
+    font-size: x-small;
+}
 
 /* how to play */
 
