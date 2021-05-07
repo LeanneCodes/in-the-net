@@ -90,7 +90,7 @@ nav li a:visited {
     background: url('../images/havering-map-resized.png') no-repeat center center;
 }
 
-/* 5 great reasons */
+/* reviews */
 
 .rtb {
     text-align: center;
@@ -100,28 +100,10 @@ section h2 {
     padding: 30px;
 }
 
-.five-reasons {
+#reviews div {
     color: black;
     background-color: rgba(102,205,170, 0.5);
-    width: 20%;
-    height: 350px;
-    float: left;
-    padding: 10px 0 0 10px;
-    text-align: center;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-}
-
-#courts {
-    padding-top: 30px;
-}
-
-/* team or solo sign up on homepage */
-
-.sign-up-option {
-    color: black;
-    background-color: rgba(102,205,170, 0.5);
-    width: 50%;
+    width: 33%;
     height: 350px;
     float: left;
     padding: 10px 0 0 10px;
