@@ -172,7 +172,7 @@ iframe {
     color: white;
 
     top: 200px;
-    left: 400px;
+    left: 130px;
 
     position: absolute;
 }
@@ -211,7 +211,7 @@ iframe {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 200px;
+    height: 180px;
     width: 100%;
     background-color: #66CDAA;
     color: white;
