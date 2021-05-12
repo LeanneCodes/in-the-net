@@ -4,7 +4,6 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
 }
 
 body {
@@ -151,6 +150,7 @@ iframe {
     display: block;
     margin: 0 auto;
     padding: 30px;
+    border-style: none;
 }
 
 /* sign up */
@@ -194,6 +194,58 @@ iframe {
     width: auto;
     margin: 0px;
     background: url('../images/netball-post-sign-up-1400x500.png') no-repeat center center;
+}
+
+form {
+    width: 65%;
+    margin: auto;
+    padding: 75px 0px;
+}
+
+legend {
+    border-style: 1px solid lightgrey;
+    margin: auto;
+    background-color: white;
+    padding: 7px;
+    font-size: 20px;
+    font-family: 'graduate', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+fieldset {
+    background-color: rgba(102,205,170,0.2);
+}
+
+label {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+form p {
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+form input {
+    margin-left: 5px;
+}
+
+textarea {
+    margin-left: 18px;
+}
+
+form p {
+    font-size: 13px;
+}
+
+#submit {
+    margin-left: 18px;
+    font-size: 15px;
+    background-color: white;
+    color: black;
+    font-family: 'graduate', sans-serif;
+    text-transform: uppercase;
 }
 
 /* footer */
