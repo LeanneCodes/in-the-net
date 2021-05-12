@@ -11,7 +11,6 @@ body {
     font-family: 'montserrat', sans-serif;
     font-weight: 300;
     color: rgb(24, 23, 23);
-    padding-bottom: 100px;
 }
 
 /* navigation and logo */
@@ -96,6 +95,8 @@ nav li a:visited {
     height: 190px;
     text-align: center;
     float: left;
+    display: inline-block;
+    padding-bottom: 40px;
 }
 
 #ratings p {
@@ -103,7 +104,7 @@ nav li a:visited {
 }
 
 #left-rating {
-    padding-left: 200px;
+    padding-left: 145px;
     padding-right: 35px;
 }
 
@@ -114,29 +115,29 @@ nav li a:visited {
 
 /* usp */
 
-#usp div {
+#usp span {
     color: darkslategray;
-    width: 17%;
+    width: 18%;
     height: 50px;
     text-align: center;
     letter-spacing: 2px;
-    float: left;
-    padding: 2px 25px 2px 25px;
+    display: inline-block;
+}
+
+#usp div {
+    margin: auto;
+    width: 80%;
+    padding: 75px 0px 75px 75px;
 }
 
 #usp h3 {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .fas {
     font-size: 80px;
     color: #66CDAA;
     padding-bottom: 20px;
-}
-
-#content-wrap hr {
-    border-top: 2px solid;
-    border-color: darkslategray;
 }
 
 /* how to play */
@@ -203,13 +204,14 @@ iframe {
   }
   
 #content-wrap {
-    padding-bottom: 500px;    /* footer height */
+    padding-bottom: 200px;    /* footer height */
   }
 
 #footer {
     position: absolute;
     left: 0;
     bottom: 0;
+    height: 200px;
     width: 100%;
     background-color: #66CDAA;
     color: white;
@@ -226,15 +228,15 @@ iframe {
  }
 
  table {
-    width: 1800px;
-    height: 50px;
+    width: 1200px;
+    height: 70px;
     table-layout: fixed;
     float: left;
-    margin-left: 265px;
+    margin-left: 200px;
  }
 
 th, td {
-    width: 600px;
+    width: 400px;
     overflow: hidden;
 }
 
