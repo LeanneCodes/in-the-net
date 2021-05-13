@@ -44,7 +44,7 @@
             </section>
             <form action="https://www.inthenet.com" method="POST">
                 <fieldset>
-                    <legend>Your Details</legend>
+                    <legend>Sign Up Form</legend>
                         <br>
                         <label for="fname">First Name: </label>
                         <input name="first-name" id="fname" type="text" placeholder="First Name" required>
@@ -68,14 +68,16 @@
                         <p>Choose below whether you're registering as a solo member or as a team.</p>
                         <label for="solo">Solo</label>
                         <input type="radio" id="solo" name="team" value="Solo">
-                        <br>
+                        <p>Solo registrations are £65 per person per season (10 games)</p>
                         <label for="team">Team</label>
                         <input type="radio" id="team" name="team" value="Team">
+                        <p>Team registrations are £50 per person per season (10 games)</p>
                         <br>
                         <p>If registering as a team, please select the number of players you have.</p>
                         <p><em>Please note:</em> A maximum number of 7 people from your team can play at any one time.</p>
                         <label for="players"></label>
                         <select name="players" id="players">
+                            <option value="blank"></option>
                             <option value="2">2</option>
                             <option value="3">3</option>
                             <option value="4">4</option>
@@ -90,6 +92,7 @@
                         <br>
                         <label for="skill">Skill Level: </label>
                         <p>If registering as a team, please select the average skill level amongst the players.</p>
+                        <br>
                         <label for="npb">Never Played Before</label>
                         <input name="skill" id="npd" type="radio" value="Never Played Before">
                         <br>
@@ -108,6 +111,8 @@
                         <br>
                         <label for="equipment">Do you require equipment?</label>
                         <br>
+                        <p>Free equipment (bibs and balls) are available to all players. However, if you would like to purchase your own, please select no.</p>
+                        <br>
                         <label for="equipment">Yes</label>
                         <input type="radio" name="equipment" id="equipment" value="Yes">
                         <br>
@@ -117,6 +122,8 @@
                         <br>
                         <label for="coach">Would you like private coaching sessions?</label>
                         <br>
+                        <p>Private coaching sessions are an additional £15 per booking. These can be booked at the payment stage after submitting your form.</p>
+                        <br>
                         <label for="coach">Yes</label>
                         <input type="radio" name="coach" id="coach" value="Yes">
                         <br>
@@ -124,7 +131,7 @@
                         <input type="radio" name="coach" id="coach" value="No">
                         <br>
                         <br>
-                        <label for="info">Additional information we should know about? E.g. Any injuries, medical conditions etc.</label>
+                        <label for="info">Any additional information we should know about? E.g. Any injuries, medical conditions etc.</label>
                         <br>
                         <textarea name="info" id="info" cols="30" rows="10" placeholder="Enter text here"></textarea>
                         <br>
