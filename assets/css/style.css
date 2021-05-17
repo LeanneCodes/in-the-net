@@ -291,30 +291,35 @@ form p {
   }
   
 .content-wrap {
-    padding-bottom: 230px;    /* footer height */
+    padding-bottom: 240px;    /* footer height */
   }
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-container > div {
+    margin: 20px;
+}
 
 #footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 230px;
+    height: 245px;
     width: 100%;
     background-color: #66CDAA;
     color: white;
-    text-align: justify;
+    text-align: center;
  }
-
-#flex-container {
-    display: flex;
-    align-items: stretch;
-}
 
  .footer-headings {
      text-decoration: underline;
      letter-spacing: 2px;
  }
 
+ /*
  .company-info {
      position:absolute;
  }
@@ -329,6 +334,7 @@ th, td {
     width: 400px;
     overflow: hidden;
 }
+*/
 
 #copyright {
     text-align: center;
@@ -337,8 +343,7 @@ th, td {
 
  #social-links {
      padding: 0px;
-     position: absolute;
-     font-size: 30px;
+     font-size: 20px;
      color: white;
  }
 
