@@ -124,29 +124,31 @@ nav li a:visited {
 
 #netball-insitu span {
     height: 500px;
-    width: 46%;
+    width: 33%;
     overflow: hidden;
     display: inline-block;
-    padding-left: 55px;
 }
 
 #medals {
     height: 500px;
     background: url('../images/netball-girls-win-game\ \(2\).jpeg') no-repeat center;
-    margin: auto;
 }
 
 #older-players {
     height: 500px;
     background: url('../images/older-netball-players\ \(2\).jpeg') no-repeat center;
-    margin: auto;
+}
+
+#open-court {
+    height: 500px;
+    background: url('../images/open-court-small.png') no-repeat center;
 }
 
 /* usp */
 
 #usp span {
     color: darkslategray;
-    width: 17%;
+    width: 18%;
     height: 50px;
     text-align: center;
     letter-spacing: 2px;
@@ -157,11 +159,13 @@ nav li a:visited {
 #usp div {
     width: 100%;
     margin: auto;
-    padding: 50px;
+    padding-bottom: 25px;
 }
 
 #usp h3 {
-    padding-bottom: 100px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
 }
 
 .fas {
@@ -314,8 +318,6 @@ form p {
     width: 1200px;
     height: 70px;
     table-layout: fixed;
-    float: left;
-    margin-left: 200px;
  }
 
 th, td {
@@ -333,3 +335,16 @@ th, td {
  #social-links a:visited {
      color: white;
  }
+
+ /* media queries */
+
+/* for larger to medium screens size from 1200px wide and down */
+@media screen and (max-width: 1920px) {
+   
+}
+
+/* for medium screens size from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+}
+
