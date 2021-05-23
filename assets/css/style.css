@@ -73,6 +73,7 @@ nav li a:visited {
     width: 100%;
     overflow: hidden;
     position: relative;
+    padding-bottom: 50px;
 }
 
 #hero-image {
@@ -85,13 +86,17 @@ nav li a:visited {
 /* reviews */
 
 #fivestars {
-    padding: 60px 0px 30px 0px;
+    padding: 0px 0px 50px 0px;
+}
+
+#ratings {
+    padding-bottom: 50px;
 }
 
 #ratings div {
     color: darkslategray;
     width: 100%;
-    height: 190px;
+    height: 220px;
     text-align: center;
 }
 
@@ -147,25 +152,23 @@ nav li a:visited {
 
 /* usp */
 
-#usp span {
-    color: darkslategray;
-    width: 18%;
-    height: 50px;
-    text-align: center;
-    letter-spacing: 2px;
-    display: inline-block;
-    margin: 10px;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
-#usp div {
-    width: 100%;
-    margin: auto;
-    padding-bottom: 25px;
+.grid-item {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#usp {
+    padding: 20px 0px;
 }
 
 #usp h3 {
     width: 65%;
-    text-align: center;
     margin: auto;
 }
 
@@ -175,28 +178,46 @@ nav li a:visited {
     padding-bottom: 20px;
 }
 
+hr {
+    border-style: 1px solid darkslategrey;
+}
+
 /* join us */
 
 #join-us {
+    padding: 50px 0px;
+}
+
+#join-us h1, p {
     text-align: center;
-    padding: 50px
+    font-family: 'montserrat', sans-serif;
 }
 
 #join-us p {
-    font-size: 14px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#join-us h1 {
+    letter-spacing: 2px;
+    color: darkslategray;
 }
 
 /* how to play */
 
 #how-to-play {
     text-align: center;
+    padding-top: 50px;
 }
 
 iframe {
     display: block;
     margin: 0 auto;
-    padding: 30px;
     border-style: none;
+}
+
+#video {
+    padding: 30px 0px 50px 0px;
 }
 
 /* fixtures and results */
@@ -217,7 +238,7 @@ iframe {
 }
 
 #results-table {
-    padding: 50px 255px;
+    padding: 50px 150px;
 }
 
 .flex-container-results {
@@ -242,7 +263,7 @@ iframe {
 }
 
 #league-table {
-    padding: 50px 255px;
+    padding: 50px 150px;
 }
 
 .flex-container-fixtures {
@@ -263,7 +284,7 @@ iframe {
 }
 
 .league-heading p {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #cover-text-fixture {
@@ -291,6 +312,30 @@ iframe {
 #cover-text-fixture p {
     font-family: 'montserrat', sans-serif;
     text-transform: capitalize;
+}
+
+/* venue */
+
+#venue {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.grid-container-venue {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: url('../images/netball-venues.png');
+}
+
+.grid-item-venue {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    padding: 20px 100px;
+    border: 2px solid whitesmoke;
 }
 
 /* sign up */
@@ -339,11 +384,11 @@ iframe {
 form {
     width: 65%;
     margin: auto;
-    padding: 75px 0px;
+    padding: 50px 0px;
 }
 
 legend {
-    border-style: 1px solid lightgrey;
+    border-style: 0.5px solid lightgrey;
     margin: auto;
     background-color: white;
     padding: 7px;
@@ -354,7 +399,7 @@ legend {
 }
 
 fieldset {
-    background-color: rgba(102,205,170,0.2);
+    background-color: rgba(37, 116, 169, 0.1);
 }
 
 label {
@@ -365,6 +410,8 @@ label {
 form p {
     padding: 0px 30px 0px 10px;
     margin-left: 10px;
+    font-size: 13px;
+    text-align: left;
 }
 
 form input {
@@ -373,10 +420,6 @@ form input {
 
 textarea {
     margin-left: 18px;
-}
-
-form p {
-    font-size: 13px;
 }
 
 #submit {
