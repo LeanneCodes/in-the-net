@@ -45,33 +45,30 @@
                         <br>
                         <label for="fname">First Name: </label>
                         <input name="first-name" id="fname" type="text" placeholder="First Name" required>
-                        <br>
                         <label for="lname">Last Name: </label>
-                        <input name="last-name" id="lname" type="text" placeholder="Last Name" required> 
+                        <input name="last-name" id="lname" type="text" placeholder="Last Name" required>
+                        <label for="age">Age: </label>
+                        <input type="number" min="13" max="50" step="1" required> 
                         <br>
                         <br>
                         <label for="email">Email: </label>
                         <input name="email" id="email" type="text" placeholder="Email Address" required>
-                        <br>
                         <label for="number">Mobile Number: </label>
                         <input name="number" id="number" type="text" placeholder="Mobile Number" required>
-                        <br>
-                        <label for="age">Age: </label>
-                        <input type="number" min="13" max="50" step="1" required>
                         <br>
                         <br>
                         <label for="team">Solo or Team Registrations: </label>
                         <br>
-                        <p>Choose below whether you're registering as a solo member or as a team.</p>
-                        <label for="solo">Solo</label>
-                        <input type="radio" id="solo" name="team" value="Solo">
                         <p>Solo registrations are £65 per person per season (10 games)</p>
-                        <label for="team">Team</label>
-                        <input type="radio" id="team" name="team" value="Team">
                         <p>Team registrations are £50 per person per season (10 games)</p>
+                        <label for="team-type"></label>
+                        <select name="team-type" id="team-type">
+                            <option value="blank"></option>
+                            <option value="solo">Solo</option>
+                            <option value="team">Team</option>
+                        </select>
                         <br>
-                        <p><em>Please note:</em> If registering as a team, please select the number of players you have.</p>
-                        <p>A maximum number of 7 people from your team can play at any one time.</p>
+                        <p><em>Please note:</em> If registering as a team, please select the number of players you have. A maximum number of 7 people from your team can play at any one time.</p>
                         <label for="players"></label>
                         <select name="players" id="players">
                             <option value="blank"></option>
@@ -89,27 +86,20 @@
                         <br>
                         <label for="skill">Skill Level: </label>
                         <p>If registering as a team, please select the average skill level amongst the players.</p>
-                        <br>
-                        <label for="npb">Never Played Before</label>
-                        <input name="skill" id="npd" type="radio" value="Never Played Before">
-                        <br>
-                        <label for="beg">Beginner</label>
-                        <input name="skill" id="beg" type="radio" value="Beginner">
-                        <br>
-                        <label for="int">Intermediate</label>
-                        <input name="skill" id="int" type="radio" value="Intermediate">
-                        <br>
-                        <label for="adv">Advanced</label>
-                        <input name="skill" id="adv" type="radio" value="Advanced">
-                        <br>
-                        <label for="exp">Expert</label>
-                        <input name="skill" id="exp" type="radio" value="Expert">
+                        <label for="skill-level"></label>
+                        <select name="skill-level" id="skill-level">
+                            <option value="blank"></option>
+                            <option value="npb">Never Played Before</option>
+                            <option value="beg">Beginner</option>
+                            <option value="int">Intermediate</option>
+                            <option value="adv">Advanced</option>
+                            <option value="exp">Expert</option>
+                        </select>
                         <br>
                         <br>
                         <label for="equipment">Do you require equipment?</label>
                         <br>
                         <p>Free equipment (bibs and balls) are available to all players. However, if you would like to purchase your own, please select no.</p>
-                        <br>
                         <label for="equipment">Yes</label>
                         <input type="radio" name="equipment" id="equipment" value="Yes">
                         <br>
@@ -117,20 +107,9 @@
                         <input type="radio" name="equipment" id="equipment" value="No">
                         <br>
                         <br>
-                        <label for="coach">Would you like private coaching sessions?</label>
-                        <br>
-                        <p>Private coaching sessions are an additional £15 per booking. These can be booked at the payment stage after submitting your form.</p>
-                        <br>
-                        <label for="coach">Yes</label>
-                        <input type="radio" name="coach" id="coach" value="Yes">
-                        <br>
-                        <label for="coach">No</label>
-                        <input type="radio" name="coach" id="coach" value="No">
-                        <br>
-                        <br>
                         <label for="info">Any additional information we should know about? E.g. Any injuries, medical conditions etc.</label>
                         <br>
-                        <textarea name="info" id="info" cols="30" rows="10" placeholder="Enter text here"></textarea>
+                        <textarea name="info" id="info" cols="50" rows="10" placeholder="Enter text here"></textarea>
                         <br>
                         <br>
                         <input type="button" id="submit" value="Submit">

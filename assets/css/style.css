@@ -312,7 +312,7 @@ iframe {
     color: white;
 
     top: 200px;
-    left: 130px;
+    left: 330px;
 
     position: absolute;
 }
@@ -363,7 +363,7 @@ label {
 }
 
 form p {
-    padding-left: 10px;
+    padding: 0px 30px 0px 10px;
     margin-left: 10px;
 }
 
