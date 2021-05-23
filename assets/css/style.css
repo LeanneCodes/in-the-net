@@ -220,21 +220,77 @@ iframe {
     padding: 50px 255px;
 }
 
-.flex-container-fixture {
+.flex-container-results {
     display: flex;
     align-items: stretch;
     text-align: center;
-    background-color: rgba(37, 116, 169, 0.5);
+    background-color: rgba(37, 116, 169, 0.45);
     color: white;
 }
 
-.flex-container-fixture > div {
+.flex-container-results > div {
     margin: 20px;
 }
 
 .results-heading > h3 {
     text-decoration: underline;
     padding-bottom: 10px;
+}
+
+.results-heading p {
+    padding-bottom: 20px;
+}
+
+#league-table {
+    padding: 50px 255px;
+}
+
+.flex-container-fixtures {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    background-color: rgba(37, 116, 169, 0.45);
+    color: white;
+}
+
+.flex-container-fixtures > div {
+    margin: 20px;
+}
+
+.league-heading > h3 {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.league-heading p {
+    padding-bottom: 20px;
+}
+
+#cover-text-fixture {
+    font-size: 130%;
+    font-family: 'graduate', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+
+    width: 450px;
+    height: 160px;
+
+    padding-top: 20px;
+    padding-left: 5px;
+
+    background-color: rgba(102,205,170,0.7);
+    color: white;
+
+    top: 160px;
+    right: 300px;
+
+    position: absolute;
+}
+
+#cover-text-fixture p {
+    font-family: 'montserrat', sans-serif;
+    text-transform: capitalize;
 }
 
 /* sign up */
