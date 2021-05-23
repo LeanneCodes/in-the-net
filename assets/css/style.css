@@ -238,7 +238,7 @@ iframe {
 }
 
 #results-table {
-    padding: 50px 150px;
+    padding: 50px 400px;
 }
 
 .flex-container-results {
@@ -259,11 +259,11 @@ iframe {
 }
 
 .results-heading p {
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 }
 
 #league-table {
-    padding: 50px 150px;
+    padding: 50px 400px;
 }
 
 .flex-container-fixtures {
@@ -448,7 +448,7 @@ textarea {
 }
 
 .flex-container > div {
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 #footer {
@@ -466,23 +466,6 @@ textarea {
      text-decoration: underline;
      letter-spacing: 2px;
  }
-
- /*
- .company-info {
-     position:absolute;
- }
-
- table {
-    width: 1200px;
-    height: 70px;
-    table-layout: fixed;
- }
-
-th, td {
-    width: 400px;
-    overflow: hidden;
-}
-*/
 
 #copyright {
     text-align: center;
@@ -502,7 +485,7 @@ th, td {
  /* media queries */
 
 /* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1905px) {
    
 }
 
