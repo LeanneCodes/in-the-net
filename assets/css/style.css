@@ -123,31 +123,18 @@ nav li a:visited {
 
 /* netball insitu images */
 
-#netball-insitu div {
-    width: 100%;
-    height: 500px;
+#netball-insitu {
+    padding: 50px;
+    margin-left: 50px;
 }
 
-#netball-insitu span {
-    height: 500px;
-    width: 33%;
-    overflow: hidden;
-    display: inline-block;
+.grid-container-netball-images {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-#medals {
-    height: 500px;
-    background: url('../images/netball-girls-win-game\ \(2\).jpeg') no-repeat center;
-}
-
-#older-players {
-    height: 500px;
-    background: url('../images/older-netball-players\ \(2\).jpeg') no-repeat center;
-}
-
-#open-court {
-    height: 500px;
-    background: url('../images/open-court-small.png') no-repeat center;
+.grid-item-netball-images {
+    padding: 10px;
 }
 
 /* usp */
@@ -448,7 +435,7 @@ textarea {
 }
 
 .flex-container > div {
-    margin: 20px 0px;
+    margin: 20px;
 }
 
 #footer {
@@ -484,13 +471,181 @@ textarea {
 
  /* media queries */
 
-/* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1905px) {
-   
+/* for larger to medium screens size from 1366px wide and down */
+@media screen and (max-width: 1366px) {
+    #cover-text-fixture {
+        right: 30px;
+    }
+
+    #results-table {
+        padding: 50px 130px;
+    }
+
+    #league-table {
+        padding: 50px 130px;
+    }
+
+    #cover-text {
+        left: 100px;
+    }
+    
+    #netball-insitu {
+        padding: 10px;
+        margin-left: 20px;
+    }
+
+    #netball-insitu img {
+        height: 266px;
+        width: 400px;
+    }
 }
 
-/* for medium screens size from 950px wide and down */
-@media screen and (max-width: 950px) {
+/* for medium screens size from 1280px wide and down */
+@media screen and (max-width: 1280px) {
+    #cover-text-fixture {
+        right: 15px;
+    }
 
+    #results-table {
+        padding: 50px 80px;
+    }
+
+    #league-table {
+        padding: 50px 80px;
+    }
+
+    #cover-text {
+        left: 100px;
+    }
+    
+    #netball-insitu {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    #netball-insitu img {
+        height: 266px;
+        width: 400px;
+    }
 }
 
+/* for small to medium screens size from 768px wide and down */
+@media screen and (max-width: 768px) {
+    #cover-text-fixture {
+        left: 150px;
+        background-color: rgba(102,205,170,0.9);
+    }
+
+    #results-table {
+        padding: 50px 15px;
+    }
+
+    #league-table {
+        padding: 50px 15px;
+    }
+
+    .flex-container-results > div {
+        margin: 1px;
+    }
+
+    .results-heading > h3 {
+        text-decoration: underline;
+        padding-bottom: 40px;
+        font-size: 16px;
+    }
+    
+    .results-heading p {
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+    
+    .flex-container-fixtures > div {
+        margin: 1px;
+    }
+    
+    .league-heading p {
+        padding-bottom: 20px;
+    }
+
+    .league-heading > h3 {
+        text-decoration: underline;
+        padding-bottom: 40px;
+        font-size: 16px;
+    }
+    
+    .league-heading p {
+        padding-bottom: 20px;
+        font-size: 14px;
+    }
+
+    .grid-item-venue {
+        padding: 20px 50px;
+    }
+
+    .grid-container-venue {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-image: url('../images/netball-venues-responsive\ \(1\).png');
+    }
+
+    #cover-text {
+        left: 120px;
+        background-color: rgba(102,205,170,0.9);
+    }
+    
+    form {
+        width: 95%;
+        margin: auto;
+        padding: 50px 0px;
+    }
+    
+    label {
+        padding-left: 10px;
+        margin-left: 10px;
+    }
+        
+    #ratings {
+        padding-bottom: 150px;
+    }
+        
+    .reviews {
+        display: inline-block;
+        width: 26%;
+        padding: 20px;
+        vertical-align: middle;
+    }
+
+    #netball-insitu {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    #netball-insitu img {
+        height: 466px;
+        width: 700px;
+    }
+
+    #open-court {
+        display: none;
+    }
+
+    .grid-container-netball-images {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .grid-item-netball-images {
+        padding: 10px;
+        margin: auto;
+    }
+
+    iframe {
+        width: 700px;
+        height: 394px;
+    }
+}
+
+/* for small screens size from 414px wide and down */
+@media screen and (max-width: 414px) {
+    
+}
