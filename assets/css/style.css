@@ -175,6 +175,17 @@ nav li a:visited {
     padding-bottom: 20px;
 }
 
+/* join us */
+
+#join-us {
+    text-align: center;
+    padding: 50px
+}
+
+#join-us p {
+    font-size: 14px;
+}
+
 /* how to play */
 
 #how-to-play {
@@ -186,6 +197,44 @@ iframe {
     margin: 0 auto;
     padding: 30px;
     border-style: none;
+}
+
+/* fixtures and results */
+
+#fixture-image {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#tertiary-image {
+    height: 500px;
+    width: auto;
+    margin: 0px;
+    background: url('../images/netball-going-into-hoop-1400-500.png') no-repeat center center;
+}
+
+#results-table {
+    padding: 50px 255px;
+}
+
+.flex-container-fixture {
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+    background-color: rgba(37, 116, 169, 0.5);
+    color: white;
+}
+
+.flex-container-fixture > div {
+    margin: 20px;
+}
+
+.results-heading > h3 {
+    text-decoration: underline;
+    padding-bottom: 10px;
 }
 
 /* sign up */
@@ -291,7 +340,7 @@ form p {
   }
   
 .content-wrap {
-    padding-bottom: 240px;    /* footer height */
+    padding-bottom: 260px;    /* footer height */
   }
 
 .flex-container {
@@ -307,7 +356,7 @@ form p {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 245px;
+    height: 250px;
     width: 100%;
     background-color: #66CDAA;
     color: white;
