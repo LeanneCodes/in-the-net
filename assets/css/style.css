@@ -727,4 +727,64 @@ textarea {
         margin: 0px;
         background: url('../images/netball-goal-shooter-425px.png') no-repeat center center;
     }
+
+    .reviews {
+        float: left;
+        width: 100%;
+        padding: 10px 20px;
+        vertical-align: middle;
+    }
+
+    #ratings {
+        padding-bottom: 50px;
+    }
+    
+    #ratings div {
+        height: 600px;
+        width: 380px;
+    }
+
+    #netball-insitu {
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    #netball-insitu img {
+        height: 267px;
+        width: 400px;
+    }
+
+    #open-court {
+        display: none;
+    }
+
+    #older-players {
+        display: none;
+    }
+
+    iframe {
+        width: 400px;
+        height: 225px;
+    }
+
+    .grid-item {
+        padding: 10px 0px;
+        font-size: 10px;
+    }
+    
+    .fas {
+        font-size: 40px;
+    }
+
+    .content-wrap {
+        padding-bottom: 560px;    /* footer height */
+      }
+     
+    #footer {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 750px;
+        width: 100%;
+     }
 }
