@@ -243,58 +243,6 @@ table {
   
   tr:nth-child(even){background-color: #f2f2f2}
 
-/*
-#results-table {
-    padding: 50px 400px;
-}
-
-.flex-container-results {
-    display: flex;
-    align-items: stretch;
-    text-align: center;
-    background-color: rgba(37, 116, 169, 0.45);
-    color: white;
-}
-
-.flex-container-results > div {
-    margin: 20px;
-}
-
-.results-heading > h3 {
-    text-decoration: underline;
-    padding-bottom: 10px;
-}
-
-.results-heading p {
-    padding-bottom: 40px;
-}
-
-#league-table {
-    padding: 50px 400px;
-}
-
-.flex-container-fixtures {
-    display: flex;
-    align-items: stretch;
-    text-align: center;
-    background-color: rgba(37, 116, 169, 0.45);
-    color: white;
-}
-
-.flex-container-fixtures > div {
-    margin: 20px;
-}
-
-.league-heading > h3 {
-    text-decoration: underline;
-    padding-bottom: 10px;
-}
-
-.league-heading p {
-    padding-bottom: 40px;
-}
-*/
-
 #cover-text-fixture {
     font-size: 130%;
     font-family: 'graduate', sans-serif;
@@ -340,7 +288,7 @@ table {
 }
 
 .grid-item-venue {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 100px;
     border: 2px solid whitesmoke;
@@ -548,14 +496,6 @@ textarea {
         right: 60px;
     }
 
-    #results-table {
-        padding: 50px 130px;
-    }
-
-    #league-table {
-        padding: 50px 130px;
-    }
-
     #cover-text {
         left: 100px;
     }
@@ -659,7 +599,7 @@ textarea {
     }
 
     #cover-text {
-        left: 100px;
+        left: 40px;
     }
     
     #netball-insitu {
@@ -691,48 +631,6 @@ textarea {
     #cover-text-fixture {
         left: 150px;
         background-color: rgba(102,205,170,0.9);
-    }
-
-    #results-table {
-        padding: 50px 15px;
-    }
-
-    #league-table {
-        padding: 50px 15px;
-    }
-
-    .flex-container-results > div {
-        margin: 1px;
-    }
-
-    .results-heading > h3 {
-        text-decoration: underline;
-        padding-bottom: 40px;
-        font-size: 16px;
-    }
-    
-    .results-heading p {
-        padding-bottom: 20px;
-        font-size: 14px;
-    }
-    
-    .flex-container-fixtures > div {
-        margin: 1px;
-    }
-    
-    .league-heading p {
-        padding-bottom: 20px;
-    }
-
-    .league-heading > h3 {
-        text-decoration: underline;
-        padding-bottom: 40px;
-        font-size: 16px;
-    }
-    
-    .league-heading p {
-        padding-bottom: 20px;
-        font-size: 14px;
     }
 
     .grid-item-venue {
@@ -778,8 +676,8 @@ textarea {
     }
 
     #netball-insitu img {
-        height: 466px;
-        width: 700px;
+        height: 227px;
+        width: 340px;
     }
 
     #open-court {
@@ -792,7 +690,7 @@ textarea {
     }
     
     .flex-item-netball-images {
-        padding: 10px;
+        padding: 1px;
         margin: auto;
     }
 
@@ -802,7 +700,31 @@ textarea {
     }
 }
 
-/* for small screens size from 414px wide and down */
-@media screen and (max-width: 414px) {
+/* for small screens size from 425px wide and down */
+@media screen and (max-width: 425px) {
+    header a {
+        position: center;
+        text-align: center;
+        width: auto;
+        margin: 0px;
+        padding: 5px 5px;
+        text-decoration: none;
+        color: #66CDAA;
+    }
+        
+    #menu li {
+        list-style-type: none;
+        margin-left: 5px;
+        padding: 0px;
+        display: inline-block;
+        text-align: center;
+        letter-spacing: 2px;
+    }
     
+    #hero-image {
+        height: 500px;
+        width: auto;
+        margin: 0px;
+        background: url('../images/netball-goal-shooter-425px.png') no-repeat center center;
+    }
 }
