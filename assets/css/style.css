@@ -344,7 +344,7 @@ form {
 }
 
 legend {
-    border-style: 0.5px solid lightgrey;
+    border-style: 0.5px solid rgba(37, 116, 169, 0.1);
     margin: auto;
     background-color: white;
     padding: 7px;
@@ -498,6 +498,10 @@ textarea {
 
 /* for larger screens size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
+    #ratings {
+        padding-bottom: 50px;
+    }
+    
     #cover-text-fixture {
         right: 60px;
     }
@@ -864,5 +868,9 @@ textarea {
     form {
         width: 98%;
     }
+
+    th, td {
+        font-size: 14px;
+      }
 
 }
