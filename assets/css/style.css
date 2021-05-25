@@ -398,14 +398,15 @@ textarea {
     padding-bottom: 260px;    /* footer height */
   }
 
-.flex-container {
-    display: flex;
-    align-items: stretch;
+.grid-container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-.flex-container > div {
-    margin: 20px;
-}
+.grid-item-footer {
+    padding: 20px;
+    text-align: center;
+  }
 
 #footer {
     position: absolute;
@@ -728,6 +729,10 @@ textarea {
         background: url('../images/netball-goal-shooter-425px.png') no-repeat center center;
     }
 
+    #fivestars {
+        padding: 0px 30px 20px 30px;
+    }
+
     .reviews {
         float: left;
         width: 100%;
@@ -777,14 +782,72 @@ textarea {
     }
 
     .content-wrap {
-        padding-bottom: 560px;    /* footer height */
+        padding-bottom: 510px;    /* footer height */
       }
      
     #footer {
         position: absolute;
         left: 0;
         bottom: 0;
-        height: 750px;
+        height: 490px;
         width: 100%;
      }
+
+     .grid-container-footer {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .grid-container-venue {
+        display: grid;
+        grid-template-columns: auto;
+        background-image: url('../images/netball-venues-425px.png');
+    }
+    
+    .grid-item-venue {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 100px;
+        border: 2px solid whitesmoke;
+    }
+
+    #tertiary-image {
+        height: 500px;
+        width: auto;
+        margin: 0px;
+        background: url('../images/netball-going-into-hoop-425px.png') no-repeat center center;
+    }
+
+    #cover-text-fixture {
+        font-size: 100%;
+        letter-spacing: 2px;
+    
+        width: 380px;
+        height: 130px;
+    
+        background-color: rgba(102,205,170,0.9);
+        
+        top: 160px;
+        left: 20px;
+    }
+
+    #cover-text {
+        font-size: 100%;
+        letter-spacing: 2px;
+    
+        width: 380px;
+        height: 70px;
+    
+        background-color: rgba(102,205,170,0.9);
+    
+        top: 200px;
+        left: 20px;
+    }
+
+    #netball-post {
+        height: 500px;
+        width: auto;
+        margin: 0px;
+        background: url('../images/netball-post-425px.png') no-repeat center center;
+    }
 }
