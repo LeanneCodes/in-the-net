@@ -43,17 +43,19 @@
                 <fieldset>
                     <legend>Sign Up Form</legend>
                         <br>
-                        <label for="fname">First Name: </label>
-                        <input name="first-name" id="fname" type="text" placeholder="First Name" required>
-                        <label for="lname">Last Name: </label>
+                        <label for="fname" class="required">First Name: </label>
+                        <input name="first-name" id="fname" type="text" placeholder="First Name">
+                        <br>
+                        <label for="lname" class="required">Last Name: </label>
                         <input name="last-name" id="lname" type="text" placeholder="Last Name" required>
                         <label for="age">Age: </label>
                         <input type="number" min="13" max="50" step="1" required> 
                         <br>
                         <br>
-                        <label for="email">Email: </label>
+                        <label for="email" class="required">Email: </label>
                         <input name="email" id="email" type="text" placeholder="Email Address" required>
-                        <label for="number">Mobile Number: </label>
+                        <br>
+                        <label for="number" class="required">Mobile Number: </label>
                         <input name="number" id="number" type="text" placeholder="Mobile Number" required>
                         <br>
                         <br>
@@ -61,7 +63,7 @@
                         <br>
                         <p>Solo registrations are £65 per person per season (10 games)</p>
                         <p>Team registrations are £50 per person per season (10 games)</p>
-                        <label for="team-type"></label>
+                        <label for="team-type"  class="required"></label>
                         <select name="team-type" id="team-type">
                             <option value="blank"></option>
                             <option value="solo">Solo</option>
@@ -107,9 +109,9 @@
                         <input type="radio" name="equipment" id="equipment" value="No">
                         <br>
                         <br>
-                        <label for="info">Any additional info we should know about? E.g. Any injuries, medical conditions etc.</label>
+                        <label for="info">Please leave any comments for us below.</label>
                         <br>
-                        <textarea name="info" id="info" cols="50" rows="10" placeholder="Enter text here"></textarea>
+                        <textarea name="info" id="info" cols="40" rows="10" placeholder="Enter text here"></textarea>
                         <br>
                         <br>
                         <input type="button" id="submit" value="Submit">

@@ -387,6 +387,11 @@ textarea {
     text-transform: uppercase;
 }
 
+.required:after {
+    content:"*\00a0";
+    color:red;
+}
+
 /* footer */
 
 .page-container {
@@ -759,6 +764,11 @@ textarea {
         width: 400px;
     }
 
+    #netball-insitu div {
+        padding: 5px 0px;
+        margin-left: 5px;
+    }
+
     #open-court {
         display: none;
     }
@@ -850,4 +860,9 @@ textarea {
         margin: 0px;
         background: url('../images/netball-post-425px.png') no-repeat center center;
     }
+
+    form {
+        width: 98%;
+    }
+
 }
