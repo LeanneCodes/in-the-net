@@ -605,28 +605,32 @@ textarea {
     
     #cover-text-fixture {
         right: 270px;
-        background-color: rgba(102,205,170,0.9);
+        background-color: rgba(102,205,170,0.95);
     }
 
     #cover-text {
         left: 40px;
     }
     
+    .flex-container-netball-images > div {
+        padding: 2px;
+    }
+
     #netball-insitu {
         padding: 2px;
         margin: auto;
     }
 
     #netball-insitu img {
-        height: 320px;
-        width: 480px;
+        height: 324px;
+        width: 497px;
         margin-left: 2px;
     }
 
     #open-court {
         display: none;
-        margin: 0px;
         padding: 0px;
+        margin: 0px;
     }
 
     .grid-container-venue {
@@ -655,7 +659,7 @@ textarea {
 
     #cover-text {
         left: 120px;
-        background-color: rgba(102,205,170,0.9);
+        background-color: rgba(102,205,170,0.95);
     }
     
     form {
@@ -672,7 +676,11 @@ textarea {
     #ratings {
         padding-bottom: 150px;
     }
-        
+    
+    #fivestars {
+        padding: 0px 0px 20px 0px;
+    }
+
     .reviews {
         display: inline-block;
         width: 26%;
@@ -686,8 +694,8 @@ textarea {
     }
 
     #netball-insitu img {
-        height: 227px;
-        width: 340px;
+        height: 235px;
+        width: 375px;
     }
 
     #open-court {
@@ -839,7 +847,7 @@ textarea {
         width: 380px;
         height: 130px;
     
-        background-color: rgba(102,205,170,0.9);
+        background-color: rgba(102,205,170,0.95);
         
         top: 160px;
         left: 20px;
@@ -852,7 +860,7 @@ textarea {
         width: 380px;
         height: 70px;
     
-        background-color: rgba(102,205,170,0.9);
+        background-color: rgba(102,205,170,0.95);
     
         top: 200px;
         left: 20px;
