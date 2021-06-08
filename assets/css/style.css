@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Graduate&family=Mali:wght@300&family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +12,6 @@ body {
 /* navigation and logo */
 
 header a {
-    position: center;
     text-align: center;
     width: auto;
     margin: 0px;
@@ -27,14 +23,12 @@ header a {
 #logo {
     font-family: 'poiret one', cursive;
     font-size: 80px;
-    position: center;
     color: #66CDAA
 }
 
 #slogan {
     font-family: 'graduate', sans-serif;
     font-size: 29px;
-    position: center;
     padding: 15px 15px 10px 15px;
     color: 	#2F4F4F;
 }
@@ -193,7 +187,8 @@ nav li a:visited {
 }
 
 hr {
-    border-style: 1px solid darkslategrey;
+    border-style: solid;
+    border-color: lightgrey;
 }
 
 /* join us */
@@ -371,7 +366,8 @@ form {
 }
 
 legend {
-    border-style: 0.5px solid rgba(37, 116, 169, 0.1);
+    border-style: solid;
+    border-color: rgba(125, 177, 212, 0.1);
     margin: auto;
     background-color: white;
     padding: 7px;
@@ -789,7 +785,6 @@ textarea {
 /* for small screens size from 425px wide and down */
 @media screen and (max-width: 425px) {
     header a {
-        position: center;
         text-align: center;
         width: auto;
         margin: 0px;

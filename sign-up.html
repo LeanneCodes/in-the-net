@@ -9,6 +9,10 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>In The Net - London Havering Social Netball League</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Graduate&family=Mali:wght@300&family=Montserrat&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+    </style>
 </head>
 <body>
     <div class="page-container">
@@ -49,7 +53,7 @@
                         <label for="lname" class="required">Last Name: </label>
                         <input name="last-name" id="lname" type="text" placeholder="Last Name" required>
                         <label for="age">Age: </label>
-                        <input type="number" min="13" max="50" step="1" required> 
+                        <input type="number" id="age" min="13" max="50" step="1" required> 
                         <br>
                         <br>
                         <label for="email" class="required">Email: </label>
@@ -59,7 +63,7 @@
                         <input name="number" id="number" type="text" placeholder="Mobile Number" required>
                         <br>
                         <br>
-                        <label for="team">Solo or Team Registrations: </label>
+                        <label for="team-type">Solo or Team Registrations: </label>
                         <br>
                         <p>Solo registrations are £65 per person per season (10 games)</p>
                         <p>Team registrations are £50 per person per season (10 games)</p>
@@ -86,7 +90,7 @@
                         </select>
                         <br>
                         <br>
-                        <label for="skill">Skill Level: </label>
+                        <label for="skill-level">Skill Level: </label>
                         <p>If registering as a team, please select the average skill level amongst the players.</p>
                         <label for="skill-level"></label>
                         <select name="skill-level" id="skill-level">
@@ -99,14 +103,14 @@
                         </select>
                         <br>
                         <br>
-                        <label for="equipment">Do you require equipment?</label>
+                        <label for="equipment-yes">Do you require equipment?</label>
                         <br>
                         <p>Free equipment (bibs and balls) are available to all players. However, if you would like to purchase your own, please select no.</p>
-                        <label for="equipment">Yes</label>
-                        <input type="radio" name="equipment" id="equipment" value="Yes">
+                        <label for="equipment-yes">Yes</label>
+                        <input type="radio" name="equipment" id="equipment-yes" value="Yes">
                         <br>
-                        <label for="equipment">No</label>
-                        <input type="radio" name="equipment" id="equipment" value="No">
+                        <label for="equipment-no">No</label>
+                        <input type="radio" name="equipment" id="equipment-no" value="No">
                         <br>
                         <br>
                         <label for="info">Please leave any comments for us below.</label>
