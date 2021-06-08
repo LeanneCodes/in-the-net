@@ -66,14 +66,27 @@ nav li a:visited {
     color: #66CDAA;
 }
 
+/* section headings */
+.section-heading {
+    font-family: 'montserrat', sans-serif;
+    color: darkslategray;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    text-align: center;
+    padding-top: 10px;
+}
+
 /* hero background image */
 
 #hero-outer {
-    height: 500px;
+    height: 550px;
     width: 100%;
     overflow: hidden;
     position: relative;
-    padding-bottom: 50px;
+    padding: 30px 0px 50px 0px;
 }
 
 #hero-image {
@@ -81,6 +94,10 @@ nav li a:visited {
     width: auto;
     margin: 0px;
     background: url('../images/netball-post-1400x500.png') no-repeat center center;
+}
+
+#hero-outer .section-heading {
+    padding-bottom: 30px;
 }
 
 /* reviews */
@@ -100,11 +117,21 @@ nav li a:visited {
     text-align: center;
 }
 
-.reviews {
+.grid-container-reviews {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-reviews {
+    padding: 20px 40px;
+    text-align: center;
     display: inline-block;
-    width: 26%;
-    padding: 10px;
+    width: 23%;
     vertical-align: middle;
+}
+
+.customer-review {
+    padding: 10px 30px;
 }
 
 #ratings p {
@@ -278,7 +305,7 @@ table {
     background-position: center;
     width: 100%;
     overflow: hidden;
-    padding-bottom: 50px;
+    padding: 30px 0px 50px 0px;
 }
 
 .grid-container-venue {
@@ -482,7 +509,7 @@ textarea {
     .grid-container-venue {
         display: grid;
         grid-template-columns: auto auto auto;
-        background-image: url('../images/netball-venues-2560px\ \(1\).png');
+        background-image: url('../images/netball-venues-2560px\(1\).png');
     }
 
     #ratings {
@@ -498,8 +525,22 @@ textarea {
 
 /* for larger screens size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
+    #fivestars {
+        padding: 0px 0px 20px 0px;
+    }
+    
     #ratings {
-        padding-bottom: 50px;
+        height: 250px;
+        padding-bottom: 5px;
+        margin: 20px;
+    }
+
+    .grid-item-reviews {
+        padding: 5px;
+    }
+
+    .customer-review {
+        padding: 10px 10px;
     }
     
     #cover-text-fixture {
@@ -599,8 +640,27 @@ textarea {
 
 /* for larger to medium screens size from 1024px wide and down */
 @media screen and (max-width: 1024px) {
+    .grid-item-reviews {
+        padding: 20px 0px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
     #ratings {
-        padding-bottom: 80px;
+        height: 350px;
+        padding-bottom: 5px;
+    }
+
+    .grid-container-reviews h3 {
+    padding: 0px 40px;
+    }
+
+    .customer-review {
+        padding: 10px 40px;
+    }
+
+    #fivestars {
+        padding: 0px 0px 20px 0px;
     }
     
     #cover-text-fixture {
@@ -646,6 +706,20 @@ textarea {
         left: 150px;
         background-color: rgba(102,205,170,0.9);
     }
+    
+    .grid-item-reviews {
+        padding: 5px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .grid-item-reviews h3 {
+        padding: 0px 20px;
+    }
+
+    .customer-review {
+        margin: auto;
+    }
 
     .grid-item-venue {
         padding: 20px 50px;
@@ -654,7 +728,7 @@ textarea {
     .grid-container-venue {
         display: grid;
         grid-template-columns: auto auto auto;
-        background-image: url('../images/netball-venues-responsive\ \(1\).png');
+        background-image: url('../images/netball-venues-responsive\(1\).png');
     }
 
     #cover-text {
@@ -674,18 +748,12 @@ textarea {
     }
         
     #ratings {
-        padding-bottom: 150px;
+        padding: 5px 0px;
+        height: 390px;
     }
     
     #fivestars {
         padding: 0px 0px 20px 0px;
-    }
-
-    .reviews {
-        display: inline-block;
-        width: 26%;
-        padding: 20px;
-        vertical-align: middle;
     }
 
     #netball-insitu {
@@ -739,6 +807,14 @@ textarea {
         letter-spacing: 2px;
     }
     
+    .section-heading {
+        font-family: 'montserrat', sans-serif;
+        color: darkslategray;
+        text-align: center;
+        letter-spacing: 2px;
+        padding: 0px 10px;
+    }
+
     #hero-image {
         height: 500px;
         width: auto;
@@ -746,23 +822,37 @@ textarea {
         background: url('../images/netball-goal-shooter-425px.png') no-repeat center center;
     }
 
+    #hero-outer {
+        height: 580px;
+    }
+
     #fivestars {
         padding: 0px 30px 20px 30px;
     }
 
-    .reviews {
-        float: left;
-        width: 100%;
-        padding: 10px 20px;
+    .grid-container-reviews {
+        display: grid;
+        grid-template-columns: auto;
+        padding-right: 5px;
+        margin: auto;
+    }
+    
+    .grid-item-reviews {
+        display: inline-block;
         vertical-align: middle;
+        padding-bottom: 10px;
+    }
+    
+    .customer-review {
+        padding: 10px 10px;
     }
 
     #ratings {
-        padding-bottom: 50px;
+        height: 730px;
     }
     
     #ratings div {
-        height: 600px;
+        height: 230px;
         width: 380px;
     }
 
