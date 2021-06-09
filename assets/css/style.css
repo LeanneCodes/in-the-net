@@ -982,3 +982,24 @@ textarea {
       }
 
 }
+
+/* for small screens size from 390px wide and down */
+@media screen and (max-width: 390px) {
+#ratings div {
+    width: 320px;
+    border: 5px;
+}
+
+#netball-insitu img {
+    height: 205px;
+    width: 365px;
+}
+
+#netball-insitu div {
+    padding: 2px 0px;
+}
+
+iframe {
+    width: 365px;
+    height: 205px;
+}
