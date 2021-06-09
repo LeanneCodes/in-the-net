@@ -367,9 +367,9 @@ form {
 
 legend {
     border-style: solid;
-    border-color: rgba(125, 177, 212, 0.1);
+    border-color: white;
     margin: auto;
-    background-color: white;
+    background-color: whitesmoke;
     padding: 7px;
     font-size: 20px;
     font-family: 'graduate', sans-serif;
@@ -378,7 +378,7 @@ legend {
 }
 
 fieldset {
-    background-color: rgba(37, 116, 169, 0.1);
+    background-color: rgba(125, 177, 212, 0.1);
 }
 
 label {
@@ -471,6 +471,10 @@ textarea {
 
 /* for 4k screens size from 2560px wide and down */
 @media screen and (max-width: 2560px) {
+    .grid-item-reviews {
+        padding: 5px;
+    }
+
     #cover-text-fixture {
         right: 625px;
     }
@@ -509,7 +513,9 @@ textarea {
     }
 
     #ratings {
+        height: 280px;
         padding-bottom: 10px;
+        margin: 20px 40px;
     }
 
     form {
@@ -698,6 +704,15 @@ textarea {
 
 /* for small to medium screens size from 768px wide and down */
 @media screen and (max-width: 768px) {
+    #hook {
+        padding: 0px 30px;
+    }
+    
+    #hero-outer {
+        height: 600px;
+        padding-bottom: 20px;
+    }
+
     #cover-text-fixture {
         left: 150px;
         background-color: rgba(102,205,170,0.9);
@@ -818,7 +833,7 @@ textarea {
     }
 
     #hero-outer {
-        height: 580px;
+        height: 620px;
     }
 
     #fivestars {
@@ -843,7 +858,7 @@ textarea {
     }
 
     #ratings {
-        height: 730px;
+        height: 710px;
     }
     
     #ratings div {
