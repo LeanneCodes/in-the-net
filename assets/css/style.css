@@ -461,6 +461,7 @@ textarea {
      padding: 0px;
      font-size: 20px;
      color: white;
+     text-decoration: none;
  }
 
  #social-links a:visited {
@@ -525,6 +526,58 @@ textarea {
     }
 }
 
+/* for larger screens size from 1920px wide and down */
+@media screen and (max-width: 1920px) {
+    #fivestars {
+        padding: 0px 0px 20px 0px;
+    }
+    
+    #ratings {
+        height: 210px;
+        padding-bottom: 5px;
+        margin: 20px;
+    }
+
+    .grid-item-reviews {
+        padding: 5px;
+    }
+
+    .customer-review {
+        padding: 10px 10px;
+    }
+
+    #cover-text {
+        left: 400px;
+    }
+    
+    #netball-insitu {
+        padding: 2px;
+        margin: auto;
+        height: 425px;
+    }
+
+    #netball-insitu img {
+        width: 610px;
+        height: 407px;
+    }
+
+    #cover-text-fixture {
+        right: 300px;
+    }
+
+    form {
+        width: 1400px;
+        margin: auto;
+        padding: 50px 0px;
+    }
+
+    .grid-container-venue {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-image: url('../images/netball-venues-1920px.png');
+    }
+}
+
 /* for larger screens size from 1440px wide and down */
 @media screen and (max-width: 1440px) {
     #fivestars {
@@ -556,6 +609,7 @@ textarea {
     #netball-insitu {
         padding: 2px;
         margin: auto;
+        height: 325px;
     }
 
     #netball-insitu img {
@@ -578,6 +632,12 @@ textarea {
 
 /* for larger to medium screens size from 1366px wide and down */
 @media screen and (max-width: 1366px) {
+    #ratings {
+        height: 230px;
+        padding-bottom: 5px;
+        margin: 20px;
+    }
+    
     #cover-text-fixture {
         right: 30px;
     }
@@ -596,12 +656,12 @@ textarea {
     
     #netball-insitu {
         padding: 10px;
-        margin-left: 20px;
+        height: 305px;
     }
 
     #netball-insitu img {
-        height: 266px;
-        width: 400px;
+        height: 284px;
+        width: 426px;
     }
 }
 
@@ -626,6 +686,7 @@ textarea {
     #netball-insitu {
         padding: 0px;
         margin-left: 0px;
+        height: 287px;
     }
 
     #netball-insitu img {
@@ -681,6 +742,7 @@ textarea {
     #netball-insitu {
         padding: 2px;
         margin: auto;
+        height: 330px;
     }
 
     #netball-insitu img {
@@ -770,6 +832,7 @@ textarea {
     #netball-insitu {
         padding: 0px;
         margin-left: 0px;
+        height: 287px;
     }
 
     #netball-insitu img {
@@ -1002,6 +1065,10 @@ textarea {
 
 #netball-insitu div {
     padding: 2px 0px;
+}
+
+#netball-insitu {
+    height: 215px;
 }
 
 iframe {
