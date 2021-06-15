@@ -367,9 +367,10 @@ form {
 
 legend {
     border-style: solid;
-    border-color: white;
+    border-width: 2px;
+    border-color: darkgrey;
     margin: auto;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 7px;
     font-size: 20px;
     font-family: 'graduate', sans-serif;
