@@ -407,8 +407,8 @@ textarea {
     font-size: 15px;
     background-color: white;
     color: black;
-    font-family: 'graduate', sans-serif;
-    text-transform: uppercase;
+    font-family: 'montserrat', sans-serif;
+    text-transform: capitalize;
 }
 
 .required:after {
