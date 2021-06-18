@@ -108,8 +108,6 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 
 * On an iPhone 12, the user can scroll down the page fine, but when they scroll back up, a lot of white space appears on both sides of the page screen across the x axis.
 * Social links appear blue instead of white on some devices and search engines
-* Navigation links float left on Mozilla Firefox and Internet Explorer
-* The grid container code does not seem to integrate well on Internet Explorer
 
 ## Deployment
 * The website was deployed to GitHub. The steps to deploy are as follows:
