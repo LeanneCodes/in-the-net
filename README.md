@@ -9,6 +9,8 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 
 ## Features
 ### Existing Features
+
+#### [In The Net - Homepage (Page 1)](https://leannecodes.github.io/in-the-net/index.html)
 * Navigation Bar
     * The navigation bar is featured across all pages on the website, in the same format for consistency and to provide a professional look. 
     * This section includes the name and logo of the social league “In The Net”, as well as the tagline “The Havering Social Netball League”. The tagline was included in this section to give new visitors instant awareness of what this website is about and where the league is located.
@@ -51,6 +53,7 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
     * The footer provides information that the page visitor may need, such as company info, if they want to check if the business is legitimate via Company House, contact details, such as telephone, email and address and it also includes In The Net’s social pages. The social pages provide proof that the league is real and it can help build a reputation and trust as it uploads more content from a company point of view and from players submitting their photos to be posted.
     * Each social network icon opens up to their respective pages on a new tab.
 
+#### [In The Net - Fixtures & Results (Page 2)](https://leannecodes.github.io/in-the-net/fixtures-and-results.html)
 * Fixtures & Results Landing Page Image
     * This image is keeping to the theme across the website using images from netball. It includes a cover text that instantly let’s players know what game is upcoming based on today’s date and the next game to be played. This would ideally be dynamic, so the correct information is always displayed.
 
@@ -67,6 +70,7 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 * Venue Location Details
     * In the table above, it states where the games will be held. In this section, it notifies page visitors the address of each location, so they know exactly where their game will be.
 
+#### [In The Net - Sign Up (Page 3)](https://leannecodes.github.io/in-the-net/fixtures-and-results.html)
 * Sign Up Landing Page Image
     * Keeping consistent with each page starting with a netball-related image, it is supplemented with a cover text that directs users to a form below. Depending on the screen size this website is viewed on, it provides direction/instruction to a user to scroll down to see the form and acts as a prompt that they should complete the form.
 
@@ -95,18 +99,18 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 
 ## Testing
 
-* The website was viewed on all devices, including a desktop, tablet, and a few iPhone models, including an iPhone X and an iPhone 12.
-* This website has been viewed and tested on Google Chrome, Mozilla Firefox, Safari and Internet Explorer
+* The website was viewed on all devices, including a desktop, tablet, and a few iPhone and Android models, including an iPhone X, an iPhone 12, Google Pixel 4a, Samsung S20 and a Huawei P40.
+* This website has been viewed and tested on Google Chrome, Mozilla Firefox, Safari and Microsoft Edge
 * Household members and friends were asked to navigate through the website and identify any bugs or improvements to be made.
-
-## Validator Testing
-
-* [WS3 CSS Testing Validator - Results](http://jigsaw.w3.org/css-validator/check/referer)
-* WS3 HTML Testing Validator Results
 
 ## Known Bugs
 
 * On an iPhone 12, the user can scroll down the page fine, but when they scroll back up, a lot of white space appears on both sides of the page screen across the x axis.
+
+## Validator Testing
+
+* WS3 CSS Testing Validator Results
+* WS3 HTML Testing Validator Results
 
 ## Deployment
 * The website was deployed to GitHub. The steps to deploy are as follows:
