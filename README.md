@@ -5,7 +5,7 @@ In The Net is a website that encourages people who have an interest in netball t
 
 View the live website here - [In The Net](https://leannecodes.github.io/in-the-net/ "In The Net")
 
-![Responsive Mockup](https://imgur.com/a/E8TSvES)
+![Responsive Mockup](https://github.com/LeanneCodes/in-the-net/blob/main/smartmockups_kpx0wciy.png?raw=true)
 
 ## Features
 ### Existing Features
