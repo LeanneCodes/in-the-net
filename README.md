@@ -5,7 +5,7 @@ In The Net is a website that encourages people who have an interest in netball t
 
 View the live website here - [In The Net](https://leannecodes.github.io/in-the-net/ "In The Net")
 
-![Responsive Mockup](https://github.com/LeanneCodes/in-the-net/blob/main/smartmockups_kpx0wciy.png?raw=true)
+![Responsive Mockup](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/smartmockups_kpx0wciy.png)
 
 ## Features
 ### Existing Features
@@ -107,7 +107,6 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 ## Known Bugs
 
 * On an iPhone 12, the user can scroll down the page fine, but when they scroll back up, a lot of white space appears on both sides of the page screen across the x axis.
-* Social links appear blue instead of white on some devices and search engines
 
 ## Deployment
 * The website was deployed to GitHub. The steps to deploy are as follows:
