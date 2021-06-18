@@ -70,7 +70,7 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 * Venue Location Details
     * In the table above, it states where the games will be held. In this section, it notifies page visitors the address of each location, so they know exactly where their game will be.
 
-#### [In The Net - Sign Up (Page 3)](https://leannecodes.github.io/in-the-net/fixtures-and-results.html)
+#### [In The Net - Sign Up (Page 3)](https://leannecodes.github.io/in-the-net/sign-up.html)
 * Sign Up Landing Page Image
     * Keeping consistent with each page starting with a netball-related image, it is supplemented with a cover text that directs users to a form below. Depending on the screen size this website is viewed on, it provides direction/instruction to a user to scroll down to see the form and acts as a prompt that they should complete the form.
 
