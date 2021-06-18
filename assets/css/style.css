@@ -48,7 +48,7 @@ header {
 
 nav {
     padding-bottom: 20px;
-    width: fit-content;
+    width: max-content;
     margin:0 auto;
 }
 
