@@ -971,6 +971,11 @@ textarea {
         font-size: 40px;
     }
 
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
     .content-wrap {
         padding-bottom: 510px;    /* footer height */
       }
