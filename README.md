@@ -15,6 +15,8 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
     * The navigation bar is featured across all pages on the website, in the same format for consistency and to provide a professional look. 
     * This section includes the name and logo of the social league “In The Net”, as well as the tagline “The Havering Social Netball League”. The tagline was included in this section to give new visitors instant awareness of what this website is about and where the league is located.
 
+![Logo and Navigation](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-logo-and-navigation-screenshot.png)
+
 * The Homepage Image
     * The main landing image that is featured across the multi-device screens, instantly reinforces that this website is centered around netball only. 
     * Given this image was pre-available on Shutterstock, there were limitations on the image size to fulfill a desktop greater than 1440px, as it would have distorted the photo. To ensure this issue doesn’t happen again, I would need to have new photos taken at wide angles, to allow for multiple screen sizes.
@@ -28,6 +30,8 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
     * In the first photo, you can see a group of girls of different ethnicities on the ground celebrating their win. It was important to include this photo, as it shows the social netball league is inclusive of all races.
     * The second photo is a court image during the day. This is to show potential players what their court may look like, depending on the venue their game is at. Given that it looks aesthetically pleasing, it may encourage players to sign up, so they too could play on this court.
     * The third photo is an image of older ladies playing, approximate age of 30-40 year old women. This is to encourage older players to sign up to the game, given that they are unlikely to be the only older player in the league and have the confidence to sign up.
+
+![Netball Images](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-netball-images-screenshot.png)
 
 * How to play netball
     * It was important to include a summary video on how to play netball. For players who are interested in the sport, but have never played, this is a great opportunity to understand the rules and positions, so they can feel player ready when it comes to their first game.
@@ -141,6 +145,9 @@ The live link can be found here - [In The Net](https://leannecodes.github.io/in-
 ## Design
 * Colour Scheme
     * Colour scheme derived from the Netball Presentation YouTube video. This was done to keep the look and feel of the website consistent.
+
+![Netball YouTube Instruction Video](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-youtube-video-rule-explanation-screenshot.png)
+
 * Typography
     * Google Fonts was imported into the index.html sheet. Font "Poiret One" was used for the In the Net logo, "Graduate" was used for the tagline and "Montserrat" was used for the body of text.
 
