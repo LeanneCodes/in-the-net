@@ -504,7 +504,7 @@ textarea {
 
     #netball-insitu img {
         width: 832px;
-        height: 537px;
+        height: 555px;
     }
 
     iframe {
@@ -619,7 +619,7 @@ textarea {
 
     #netball-insitu img {
         width: 459px;
-        height: 304px;
+        height: 306px;
     }
 
     form {
@@ -747,11 +747,11 @@ textarea {
     #netball-insitu {
         padding: 2px;
         margin: auto;
-        height: 330px;
+        height: 335px;
     }
 
     #netball-insitu img {
-        height: 324px;
+        height: 331px;
         width: 497px;
         margin-left: 2px;
     }
@@ -837,12 +837,12 @@ textarea {
     #netball-insitu {
         padding: 0px;
         margin-left: 0px;
-        height: 287px;
+        height: 253px;
     }
 
     #netball-insitu img {
-        height: 235px;
-        width: 375px;
+        height: 248px;
+        width: 372px;
     }
 
     #open-court {
@@ -1069,16 +1069,18 @@ textarea {
 }
 
 #netball-insitu img {
-    height: 205px;
-    width: 365px;
+    height: 253px;
+    width: 380px;
+    margin: auto;
 }
 
 #netball-insitu div {
     padding: 2px 0px;
+    margin: 0px 0px 0px 3px;
 }
 
 #netball-insitu {
-    height: 215px;
+    height: 261px;
 }
 
 iframe {
