@@ -64,7 +64,7 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
     * Matches played lets everyone know how many games they have left in their league. The league consists of 10 matches each. However, if a team does not show up to a game, it counts as a match played, but they will forfeit and their opposing team will receive an automatic 5 Goals For “GF”.
 
 * Upcoming Netball League Fixtures
-    * This table let’s confirmed teams know when their next match and where it will be.
+    * This table lets confirmed teams know when their next match and where it will be.
     * Centre-Pass means when the whistle is blown and the game starts.
 
 * Venue Location Details
