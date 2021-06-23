@@ -424,7 +424,7 @@ textarea {
   }
   
 .content-wrap {
-    padding-bottom: 260px;    /* footer height */
+    padding-bottom: 260px;    /* footer height - technique for content wrap came from Stack Overflow */
   }
 
 .grid-container-footer {

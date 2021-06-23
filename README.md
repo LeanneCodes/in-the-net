@@ -122,8 +122,12 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 * On an iPhone 12, the user can scroll down the page fine, but when they scroll back up, a lot of white space appears on both sides of the page screen across the x axis.
 
 ## Validator Testing
-* WS3 CSS Testing Validator Results
-* WS3 HTML Testing Validator Results
+* WS3 CSS Testing Validator
+    * [CSS Results]()
+* WS3 HTML Testing Validator
+    * [Homepage (Page 1) Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleannecodes.github.io%2Fin-the-net%2Findex.html)
+    * [Fixtures & Results (Page 2) Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleannecodes.github.io%2Fin-the-net%2Ffixtures-and-results.html)
+    * [Sign Up (Page 3) Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleannecodes.github.io%2Fin-the-net%2Fsign-up.html)
 
 ## Deployment
 * The website was deployed to GitHub. The steps to deploy are as follows:
