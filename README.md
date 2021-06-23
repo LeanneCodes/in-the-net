@@ -17,7 +17,7 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 
 * The Homepage Image
     * The main landing image that is featured across the multi-device screens, instantly reinforces that this website is centered around netball only. 
-    * Given this image was pre-available on Shuttershock, there were limitations on the image size to fulfill a desktop greater than 1440px, as it would have distorted the photo. To ensure this issue doesn’t happen again, I would need to have new photos taken at wide angles, to allow for multiple screen sizes.
+    * Given this image was pre-available on Shutterstock, there were limitations on the image size to fulfill a desktop greater than 1440px, as it would have distorted the photo. To ensure this issue doesn’t happen again, I would need to have new photos taken at wide angles, to allow for multiple screen sizes.
 
 * The Review Section
     * To encourage users to sign up, In The Net quotes 5-star reviews from players who have joined the league.
@@ -136,9 +136,9 @@ The live link can be found here - [In The Net](https://leannecodes.github.io/in-
 
 ## Design
 * Colour Scheme
-    * Colour scheme derived from the Netball Prsentation YouTube video. This was done to keep the look and feel of the website consistent.
+    * Colour scheme derived from the Netball Presentation YouTube video. This was done to keep the look and feel of the website consistent.
 * Typography
-    * Google Fonts was imported into the index.html sheet. Font "Poiret One" was used for the In the Net logo, 'Graduate" was used for the tagline and 'Montserrat' was used for the body of text.
+    * Google Fonts was imported into the index.html sheet. Font "Poiret One" was used for the In the Net logo, "Graduate" was used for the tagline and "Montserrat" was used for the body of text.
 
 ## Technologies Used
 * HTML5
