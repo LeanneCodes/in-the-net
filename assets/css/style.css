@@ -500,6 +500,7 @@ textarea {
     #netball-insitu {
         padding: 2px;
         margin: auto;
+        height: 574px;
     }
 
     #netball-insitu img {
@@ -519,7 +520,7 @@ textarea {
     }
 
     #ratings {
-        height: 280px;
+        height: 190px;
         padding-bottom: 10px;
         margin: 20px 40px;
     }
@@ -558,7 +559,7 @@ textarea {
     #netball-insitu {
         padding: 2px;
         margin: auto;
-        height: 425px;
+        height: 428px;
     }
 
     #netball-insitu img {
@@ -590,7 +591,7 @@ textarea {
     }
     
     #ratings {
-        height: 250px;
+        height: 230px;
         padding-bottom: 5px;
         margin: 20px;
     }
@@ -937,6 +938,7 @@ textarea {
     #netball-insitu {
         padding: 0px;
         margin-left: 0px;
+        height: 288px;
     }
 
     #netball-insitu img {
