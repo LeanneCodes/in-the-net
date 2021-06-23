@@ -98,17 +98,24 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
     * Once a page visitor has completed the form and submitted it. It would be ideal if a message popped up that the form has successfully gone through or if it hasn’t. This feedback would give the page visitor confidence that they would be progressing to the payment stage or need to go back to the form and correct some details entered.
 
 ## Testing
-
 * The website was viewed on all devices, including a desktop, tablet, and a few iPhone and Android models, including an iPhone X, an iPhone 12, Google Pixel 4a, Samsung S20 and a Huawei P40.
 * This website has been viewed and tested on Google Chrome, Mozilla Firefox, Safari and Microsoft Edge
 * Household members and friends were asked to navigate through the website and identify any bugs or improvements to be made.
 
-## Known Bugs
+## User Stories
+* First Time Visitor (User A)
+    * Viewed the website because of their interest in netball and wanting to be more active. They saw some reviews from current netball players in the league and this intrigued them to continue throughout the site and sign up to the league as a solo player.
 
+* Returning Visitor (User B)
+    * Returned to the website as they wanted to see when and where their next fixture would be. They also wanted to know where their team was ranking in the league.
+
+* Frequent Visitor (User C)
+    * They check the website frequently to see if their match is indoors or outdoors. Depending on the location of the match, some venues have indoor and outdoor courts and matches may be switched to indoors, depending on availability and weather.
+
+## Known Bugs
 * On an iPhone 12, the user can scroll down the page fine, but when they scroll back up, a lot of white space appears on both sides of the page screen across the x axis.
 
 ## Validator Testing
-
 * WS3 CSS Testing Validator Results
 * WS3 HTML Testing Validator Results
 
@@ -120,7 +127,6 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
     * Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 The live link can be found here - [In The Net](https://leannecodes.github.io/in-the-net/ "In The Net")
-
 
 ## Design
 * Colour Scheme
