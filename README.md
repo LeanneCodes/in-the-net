@@ -128,7 +128,7 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 ## Validator Testing
 * WS3 CSS Testing Validator
     * CSS Results
-    ![CSS Validated Results]
+    ![CSS Validated Results](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-css-validator-results.png)
 * WS3 HTML Testing Validator
     * [Homepage (Page 1) Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleannecodes.github.io%2Fin-the-net%2Findex.html)
     * [Fixtures & Results (Page 2) Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fleannecodes.github.io%2Fin-the-net%2Ffixtures-and-results.html)
