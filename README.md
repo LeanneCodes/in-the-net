@@ -106,11 +106,17 @@ View the live website here - [In The Net](https://leannecodes.github.io/in-the-n
 * First Time Visitor (User A)
     * Viewed the website because of their interest in netball and wanting to be more active. They saw some reviews from current netball players in the league and this intrigued them to continue throughout the site and sign up to the league as a solo player.
 
+![Reviews](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-reviews-screenshot.png)
+
 * Returning Visitor (User B)
     * Returned to the website as they wanted to see when and where their next fixture would be. They also wanted to know where their team was ranking in the league.
 
+![Ranking Table](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-ranking-screenshot.png)
+
 * Frequent Visitor (User C)
     * They check the website frequently to see if their match is indoors or outdoors. Depending on the location of the match, some venues have indoor and outdoor courts and matches may be switched to indoors, depending on availability and weather.
+
+![Fixture Table](https://raw.githubusercontent.com/LeanneCodes/in-the-net/main/assets/images/in-the-net-fixtures-screenshot.png)
 
 ## Known Bugs
 * On an iPhone 12, the user can scroll down the page fine, but when they scroll back up, a lot of white space appears on both sides of the page screen across the x axis.
